@@ -26,30 +26,30 @@ body {
     padding: 108px 0;
 }
 
-.section-title {
+.section .title {
     
     position: relative;
     font-size: 36px;
     margin: 0 0 60px 0;
 }
 
-.section-title::after {
+.title ::after {
     position: absolute;
     content: "";
-    color: #b1b12d;
+    color: #f05a3d;
     bottom: -12px;
     left: 50%;
     width: 50px;
     height: 10px;
     transform: translateX(-50%);
-    background-color: #fff;
+    background-color: #da3030;
 }
 
 
 /*splash*/
 
 .splash {
-    height: 100vh;
+    height: 40vh;
     position: relative;
     background-image: url('https://i.postimg.cc/FKntwTmk/pexels-pixabay-207495.jpg');
     background-position: center center;
@@ -161,5 +161,6 @@ body {
 }
 
 .page-footer {
-    background-color: #8e0606;
+    color: #fff;
+    background-color: #000000;
 }
